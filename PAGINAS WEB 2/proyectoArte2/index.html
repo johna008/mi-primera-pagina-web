@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galería de Arte</title>
+
+  <!-- Fuente y hoja de estilos -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>🎨 Galería de Arte</h1>
+    <nav>
+      <a class="active" href="#inicio">Inicio</a>
+      <a href="#galeria">Obras</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- INICIO -->
+  <section id="inicio" class="hero">
+    <h2>Bienvenidos al mundo del arte</h2>
+    <p>Explora las obras más famosas y deja que el arte despierte tu imaginación.</p>
+    <div class="acciones">
+      <button id="btnMensaje" class="btn">Ver mensaje</button>
+      <button id="btnTema" class="btn secundario">🌗 Tema claro/oscuro</button>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <main id="galeria" class="contenedor">
+    <h3>🖼 Obras Famosas</h3>
+    <div class="grid">
+      <article class="card">
+        <img src="img/noche-estrellada.jpg" alt="La Noche Estrellada" />
+        <h4>La Noche Estrellada</h4>
+        <p>Vincent van Gogh · 1889</p>
+      </article>
+
+      <article class="card">
+        <img src="img/mona-lisa.jpg" alt="Mona Lisa" />
+        <h4>Mona Lisa</h4>
+        <p>Leonardo da Vinci · 1503–1506</p>
+      </article>
+
+      <article class="card">
+        <img src="img/santa-cena.jpg" alt="La Última Cena" />
+        <h4>La Última Cena</h4>
+        <p>Leonardo da Vinci · 1495–1498</p>
+      </article>
+    </div>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+      <h3>📞 Contáctanos</h3>
+      <p><strong>Teléfono:</strong> +503 2222-3333</p>
+      <p><strong>Dirección:</strong> Calle Cultura #45, San Salvador</p>
+      <p><strong>Correo:</strong> info@galeriadearte.com</p>
+    </section>
+  </main>
+
+  <!-- PIE -->
+  <footer>© 2025 · Proyecto Educativo de Arte</footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
